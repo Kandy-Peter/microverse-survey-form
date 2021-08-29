@@ -10,8 +10,8 @@
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <div class="container">
-        <div class="title">
-            <h1 id="head-title">MICROVERSE survey form </h1>
+        <div class="head-title">
+            <h1 id="title">MICROVERSE survey form </h1>
             <p id="description">Thank you for taking the time to help us improve the platform</p>
         </div>
             <form id="survey-form">
@@ -21,11 +21,11 @@
                 <label for="mail" id="email-label">Email adress</label>
                 <input type="email" name="mail" id="email" placeholder="Enter your email" required><br>
 
-                <label for="age" id="age-label">Age(optional)</label>
-                <input type="number" max="30" min="18" id="age" placeholder="Age">
+                <label for="number" id="number-label">number(optional)</label>
+                <input type="number" max="30" min="18" id="number" placeholder="number">
 
                 <span>Which option best describes your current role?</span><br>
-                <select aria-placeholder="choose an option" id="selection">
+                <select aria-placeholder="choose an option" id="dropdown">
                     <option value="Student">Student</option>
                     <option value="Full time job">Full time job</option>
                     <option value="Full time learner">Full time learner</option>
@@ -89,7 +89,7 @@
                     <span>Any Comment or suggestion ?</span>
                 <textarea id="textarea" placeholder="Write your comment here"></textarea>
 
-                <input type="submit" value="submit" id="submit">
+                <button id="submit">Submit</button>
 
             </form>
     </div>
