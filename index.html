@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey-form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1 id="head-tile">A survey form </h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+            <form id="survey-form">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+                <label for="mail" id="email-label">Email adress</label>
+                <input type="email" name="mail" id="email" placeholder="Enter your email" required><br>
+
+                <label for="age" id="age-label">Age(optional)</label>
+                <input type="number" max="30" min="18" id="age" placeholder="Age">
+
+                Which option best describes your current role?<br>
+                <select aria-placeholder="choose an option">
+                    <option value="Student">Student</option>
+                    <option value="Full time job">Full time job</option>
+                    <option value="Full time learner">Full time learner</option>
+                    <option value="prefer not to say">Prefer not to say</option>
+                    <option value="other">Other</option><br>
+                </select>
+
+                <label for="role">definitely</label>
+                <input type="radio" id="definitely" name="role" value="definitely"><br>
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="maybe" name="maybe" value="maybe"><br>
+                <label for="Not-sure">Not sure</label>
+                <input type="radio" id="not-sure" name="note-sure" value="not-sure"><br>
+
+                What would you like to see improved? (Check all that apply)<br>
+                <label for="">Front-End Project</labe>
+                    <input type="checkbox" id="" name="" value="">
+                <label for="">Back-end Project</labe>
+                    <input type="checkbox" id="" name="" value="">
+                <label for="">Data visualization</labe>
+                    <input type="checkbox" id="" name="" value="">
+                <label for="">Open source community</labe>
+                    <input type="checkbox" id="" name="" value="">
+                <label for="">Challenge</labe>
+                    <input type="checkbox" id="" name="" value="">
+                <label for="">Additional courses</labe>
+                    <input type="checkbox" id="" name="" value="">
+                <label for="">City Meetups</labe>
+                    <input type="checkbox" id="" name="" value="">
+                <label for="">Videos</labe>
+                    <input type="checkbox" id="" name="" value="">
+                <label for="">Forum</labe>
+                    <input type="checkbox" id="" name="" value="">
+                    Any Comment or suggestion ?
+                <textarea id="text-area" placeholder="Write your comment here"></textarea>
+
+                <input type="submit" value="submit" id="submit">
+
+            </form>
+    </div>
+</body>
+</html>
