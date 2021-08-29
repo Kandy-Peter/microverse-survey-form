@@ -111,3 +111,28 @@ form{
     color: #fff;
     transform: .5s;
 }
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 98%;
+        margin: 0.2rem auto;
+        padding: 0.4rem;
+        overflow: hidden;
+    }
+    form{
+        width: 95%; height: 100%;
+        margin: 10px auto;
+        padding: 0.8rem;
+    }
+    #textarea{
+        width: 95%;
+        height: 110px;
+        margin: 10px;
+        padding: 8px;
+    }
+    #submit{
+        width: 190px;
+        height: 45px;
+    
+    }
+}
