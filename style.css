@@ -135,6 +135,8 @@ form{
         height: 45px;
     
     }
-#message-mercy{
-        
+#message-mercy h1{
+        text-align: center;
+        font-weight: medium;
+        color: navy;
     }
